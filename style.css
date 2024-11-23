@@ -9,7 +9,24 @@ header {
   background-color: #333;
   padding: 1rem 0;
 }
+.projects {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
+.project {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+  margin-top: 0;
+  color: #333;
+}
 nav ul {
   list-style: none;
   display: flex;
